@@ -8,4 +8,5 @@ export const Footer = styled.footer`
   width: 100%;
   background-color: ${colors.primary};
   padding: ${metrics.padding.ml} ${metrics.padding.lg};
+  z-index: 1;
 `;

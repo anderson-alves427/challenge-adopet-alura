@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import { metrics } from '../../theme';
 
 export const Header = styled.header`
-  position: relative;
+  position: fixed;
   z-index: 1;
+  width: 100%;
   padding: ${metrics.padding.md} ${metrics.padding.sm};
   display: flex;
   justify-content: space-between;
