@@ -8,7 +8,6 @@ export const Header = styled.header`
   padding: ${metrics.padding.md} ${metrics.padding.sm};
   display: flex;
   justify-content: space-between;
-  background-color: gray;
   align-items: center;
 `;
 
