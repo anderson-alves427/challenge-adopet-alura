@@ -8,8 +8,13 @@ export const ContainerMain = styled.div`
 `;
 
 export const TopImage = styled.img`
-  position: relative;
+  position: absolute;
   width: 300px;
   left: 0;
   top: 0;
+`;
+
+export const Body = styled.div`
+  margin-top: calc(${metrics.margin.xxl} * 4);
+  background-color: red;
 `;

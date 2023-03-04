@@ -8,7 +8,7 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      <ContainerMain />
+      <ContainerMain>teste</ContainerMain>
       <Footer />
     </>
   );
