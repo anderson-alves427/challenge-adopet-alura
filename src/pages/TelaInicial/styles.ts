@@ -34,3 +34,9 @@ export const ButtonTelaInicial = styled(Button)`
   width: 100%;
   margin-bottom: ${metrics.margin.sm};
 `;
+
+export const IlustracaoImg = styled.img`
+  position: absolute;
+  bottom: -${metrics.padding.md};
+  width: 200px;
+`;
