@@ -2,7 +2,7 @@ export const colors = {
   primary: '#36D6AD',
   secondary: '#3772FF',
   text: '#FFFFFF',
-  coral: '#3772FF',
+  coral: '#FC7071',
   creme: '#FCF0E3',
   cinza: '#737380',
   cinzaClaro: '#BCBCBC',
