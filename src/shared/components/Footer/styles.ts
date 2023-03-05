@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { colors, metrics } from '../../theme';
 
 export const Footer = styled.footer`
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;

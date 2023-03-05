@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { metrics } from '../../theme';
 
 export const ContainerMain = styled.div`
   width: 100%;
@@ -15,6 +14,5 @@ export const TopImage = styled.img`
 `;
 
 export const Body = styled.div`
-  margin-top: calc(${metrics.margin.xxl} * 4);
-  background-color: red;
+  height: 100vh;
 `;
