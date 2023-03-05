@@ -35,6 +35,12 @@ export const ButtonTelaInicial = styled(Button)`
   margin-bottom: ${metrics.margin.sm};
 `;
 
+export const IlustracaoBarraLateralImg = styled.img`
+  height: 350px;
+  position: absolute;
+  right: 0;
+`;
+
 export const IlustracaoImg = styled.img`
   position: absolute;
   bottom: -${metrics.padding.md};
