@@ -7,4 +7,5 @@ export const colors = {
   cinza: '#737380',
   cinzaClaro: '#BCBCBC',
   cinzaCLaroFundos: '#F7F7F7',
+  backgroundPadrao: '#FFFFFF',
 };

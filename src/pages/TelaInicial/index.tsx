@@ -3,6 +3,7 @@ import * as S from './styles';
 import Logo from '../../assets/Logo.svg';
 import IlustracaoImagem from '../../assets/background/ilustracao.svg';
 import IlustracaoBarraLateralImg from '../../assets/background/ilustracaoBarraLateral.svg';
+import { ContainerTelasMobile } from '../../shared/components/ContainerTelasMobile';
 
 export const TelaInicial = () => {
   return (

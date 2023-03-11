@@ -1,3 +1,4 @@
+import { TelaCadastro } from './pages/TelaCadastro';
 import { TelaInicial } from './pages/TelaInicial';
 import { ContainerMain } from './shared/components/ContainerMain';
 import { Footer } from './shared/components/Footer';
@@ -10,7 +11,8 @@ function App() {
       <GlobalStyle />
       <Header />
       <ContainerMain>
-        <TelaInicial />
+        {/* <TelaInicial /> */}
+        <TelaCadastro />
       </ContainerMain>
       <Footer />
     </>

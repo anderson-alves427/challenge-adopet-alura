@@ -3,14 +3,10 @@ import styled from 'styled-components';
 import { fonts, metrics } from '../../shared/theme';
 import { Text } from '../../shared/components/Text/styles';
 import { Button } from '../../shared/components/Button/styles';
+import { ContainerTelasMobile } from '../../shared/components/ContainerTelasMobile/styles';
 
-export const Container = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+export const Container = styled(ContainerTelasMobile)`
   background-color: ${colors.secondary};
-  height: 100%;
-  padding-top: calc(${metrics.padding.xxl} * 4);
 `;
 
 export const Box = styled.div`
